@@ -1,0 +1,156 @@
+.Derecha {
+    height: 410px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: absolute; /* Cambiado de absolute a fixed */
+    top: 80px;
+    margin-left: 1220px;
+    width: calc(50% - 650px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.Paginas1 img{ 
+    border-radius: 50%;
+    margin: 0px 0px 270px -110px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 55px;
+   
+}
+
+.Derecha .T20 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px 365px 10px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+.Derecha .T21 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px 310px -45px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+.Derecha .T22 {
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px 275px -170px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+.Derecha .T23 {
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px 240px -198px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+
+.Paginas2 img{ 
+    border-radius: 50%;
+    margin: 0px 0px 30px -275px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 55px;
+   
+}
+
+.Derecha .T24 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px 70px -217px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+.Derecha .T25 {
+   
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px 35px -170px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+.Derecha .T26 {
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px 5px -200px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap;
+}
+
+.Derecha button{
+    width: 100px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin: 0px 0px 160px -210px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    color: #777;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.Derecha button q{
+    width: 100px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin: 0px 0px 160px -10px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    color: #777;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.Derecha button i{
+    color:rgb(114, 109, 109);
+    
+}
+.Derecha button q{
+    color:rgb(114, 109, 109);
+    
+}
+
+.Derecha button:hover{
+    background-color: #dfdfdf;
+    border: 3px solid black;
+}
+
+.Recomendaciones{
+    background-color: transparent;
+    font-size: 18px;
+    color: #777;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Recomendaciones:hover{
+    background-color: #d4d4d4;
+}
+
+.Img-Publicidad{
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 0;
+}
+
+.Img-Publicidad img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    display: block; 
+}
+.Derecha .T9 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px -350px -270px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+

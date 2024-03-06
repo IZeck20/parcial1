@@ -1,0 +1,440 @@
+.centro {
+    height: 110px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 80px;
+    left: 630px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 390px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.yo2 img{
+    width: 50px; /* Ajusta el ancho de la imagen */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y la línea */
+    margin-left: 15px;
+    margin-top: -250px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    padding: 3px; /* Ajusta el espacio interno de la barra superior */
+    
+
+}
+
+.crear {
+    display: flex;
+    align-items: center;
+}
+
+.si {
+    padding: 20px 280px 10px 30px; /* Ajusta el espaciado y el ancho del campo de entrada */
+    margin-right: 5px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    text-indent: 0px;
+    border-radius: 70px; /* Ajusta el radio según tus preferencias */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y la línea */
+    margin-left: -5px;
+    margin-top: -40px;
+    font-size: 13px;
+}
+.galeria img {
+    border-radius: 0px;
+    margin: 70px 0px 0px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 25px;
+    margin-left: -535px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro .Gal{
+    font-size: 12px;
+    color: #000000;
+    margin: 65px 0px 0px -500px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    /* Evita que el texto se divida en renglones */
+}
+.imgeventos img {
+    border-radius: 0px;
+    margin: 70px 0px 0px 90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 25px;
+    /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro .eve{
+    font-size: 12px;
+    color: #000000;
+    margin: 65px 0px 0px 10px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    /* Evita que el texto se divida en renglones */
+}
+.Parrafo img {
+    border-radius: 0px;
+    margin: 70px 0px 0px 80px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 25px;
+    /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro .text{
+    font-size: 12px;
+    color: #000000;
+    margin: 65px 0px 0px 10px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    /* Evita que el texto se divida en renglones */
+}
+.centro1 {
+    height: 350px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 240px;
+    left: 630px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 390px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.centro1 .re {
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    margin: -310px 0px 0px 8px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.r img {
+    margin: 10px 0px 200px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 55px;
+    margin-left: -110px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro1 .T1 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 235px -50px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .T2 {
+    font-size: 13px;
+    color: #000000;
+    margin: 0px 0px 190px -50px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .T3 {
+    font-size: 13px;
+    color: #000000;
+    margin: 0px 0px 160px -312px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.b img {
+    margin: 65px 0px 100px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 51px;
+    margin-left: -295px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro1 .T4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 75px -240px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .T5 {
+    font-size: 13px;
+    color: #000000;
+    margin: 0px 0px 30px -90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.g img {
+    margin: 70px 0px -50px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 51px;
+    margin-left: -314px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.centro1 .T6 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin: 80px 0px 0px -250px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .T7 {
+    font-size: 13px;
+    color: #000000;
+    margin: 120px 0px 0px -55px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .T8 {
+    font-size: 13px;
+    color: #000000;
+    margin: 155px 0px 0px -302px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro1 .linea5 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 33%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.centro1 .linea6 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 55%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.centro1 .linea7 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 80%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.centro1 .T9 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin: 280px 0px 0px 100px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 {
+    height: 210px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 610px;
+    left: 630px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 390px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.perfil img{
+    width: 50px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px 130px 15px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+.centro2 .T10 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 170px 10px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T11 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px 130px -205px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T12 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px 95px -195px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: #d1d1d1; /* Color para la parte superior de la línea */
+    top: 35%; /* Ajusta la posición vertical del fondo */
+    left: 0;
+    z-index: -1; /* Envía este fondo detrás del contenido principal */
+}
+.centro2 .T13 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    margin: 0px 0px 20px -105px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T14 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px -25px -205px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T15 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px -70px -160px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Megusta img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -515px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.comentar img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -370px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.compartir img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -220px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.enviar img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.centro2 .T16 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px -480px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T17 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 70px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T18 {
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro2 .T19 {
+    font-size: 12px;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 {
+    height: 210px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 840px;
+    left: 630px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 390px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.perfil img{
+    width: 50px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px 130px 15px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+.centro3 .T10 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 170px 10px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T11 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px 130px -205px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T12 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px 95px -195px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: #d1d1d1; /* Color para la parte superior de la línea */
+    top: 35%; /* Ajusta la posición vertical del fondo */
+    left: 0;
+    z-index: -1; /* Envía este fondo detrás del contenido principal */
+}
+.centro3 .T13 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    margin: 0px 0px 20px -105px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T14 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px -25px -205px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T15 {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 0px 0px -70px -160px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Megusta img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -515px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.comentar img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -370px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.compartir img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -220px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.enviar img{
+    width: 20px; /* Ajusta el ancho de la imagen */
+    margin: 0px 0px -90px -90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+}
+.centro3 .T16 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px -480px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T17 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 70px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T18 {
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.centro3 .T19 {
+    font-size: 12px;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 0px -170px 90px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+
+
+
+
+
+   
+  
+

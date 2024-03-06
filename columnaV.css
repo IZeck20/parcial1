@@ -1,0 +1,191 @@
+.Izquierdo {
+    height: 350px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 80px;
+    left: 390px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 740px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.Izquierdo img {
+    width: 70px; /* Ajusta el ancho de la imagen */
+    margin-right: 10px; /* Ajusta el espacio entre la imagen y la línea */
+    margin-left: 75px;
+    margin-top: -250px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+/* Añade un fondo encima de la línea horizontal */
+.Izquierdo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: #adadad; /* Color para la parte superior de la línea */
+    top: -3%; /* Ajusta la posición vertical del fondo */
+    left: 0;
+    z-index: -1; /* Envía este fondo detrás del contenido principal */
+}
+/* Añade un párrafo (texto) debajo de la primera línea horizontal */
+.Izquierdo .Texto1 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: -130px 0 0 -140px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo .--{
+    font-size: 17px;
+    margin: -90px 0 0 -105px; 
+    white-space: nowrap; 
+}
+/* Añade un párrafo (texto) debajo de la segunda línea horizontal */
+.Izquierdo .Contacto {
+    color: #afafaf;
+    font-size: 13px;
+    margin: 10px 0px 0px -110px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo .Amplio {
+    font-size: 13px;
+    margin: 50px 0px 0 -50px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo .Numero {
+    font-size: 13px;
+    margin: 10px 0px 0px 125px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+
+.Izquierdo::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 45%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.Izquierdo .linea2 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 65%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+/* Añade un párrafo (texto) debajo de la tercera línea horizontal */
+.Izquierdo .Avanza {
+    color: #afafaf;
+    font-size: 12px;
+    margin: 130px 0px 0px -210px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+
+/* Añade un párrafo (texto) debajo de la cuarta línea horizontal */
+.Izquierdo .Premium {
+    font-size: 12px;
+    color: #afafaf;
+    margin: 170px 0px 0px -157px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.C img {
+    margin: 210px 0px 0px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 15px;
+    margin-left: -162px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.Izquierdo .Prueba {
+    font-size: 12px;
+    color: #000000;
+    margin: 208px 0px 0px -24px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo .linea3 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 85%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.G img {
+    border-radius: 0px;
+    margin: 300px 0px 0px 0px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    width: 15px;
+    margin-left: -160px; /* Ajusta la cantidad de píxeles según tus necesidades */
+}
+.Izquierdo .Marca {
+    font-size: 12px;
+    color: #000000;
+    margin: 299px 0px 0px -135px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo1 {
+    height: 150px; /* Ajusta la altura según lo que desees */
+    background-color: #ffffff; /* Color blanco para la línea o sombra */
+    position: fixed; /* Cambiado de absolute a fixed */
+    top: 450px;
+    left: 390px; /* Ajusta la distancia desde el borde izquierdo */
+    width: calc(50% - 740px); /* Ancho ajustable restando el doble de la distancia desde el borde izquierdo */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Agrega sombras a los bordes */
+    display: flex; /* Permite usar propiedades de flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro de .top-bar */
+    padding: 0 0px; /* Ajusta el espacio interno de la barra superior */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.Izquierdo1 .grupos {
+    font-size: 13px;
+    color: #0905f7;
+    margin: -110px 0px 0px 8px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo1 .eventos {
+    font-size: 13px;
+    color: #0905f7;
+    margin: -50px 0px 0px -42px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo1 .Has {
+    font-size: 13px;
+    color: #0905f7;
+    margin: 5px 0px 0px -48px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo1 .mas {
+    font-size: 30px;
+    color: #000000;
+    margin: -50px 0px 0px 80px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
+.Izquierdo1 .linea1 {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Color de la segunda línea horizontal */
+    top: 65%; /* Ajusta la posición vertical de la segunda línea */
+    left: 0;
+    z-index: 1; /* Asegura que la línea esté encima del fondo */
+}
+.Izquierdo1 .ver {
+    font-size: 12px;
+    color: #000000;
+    margin: 100px 0px 0px -130px; /* Ajusta los márgenes según sea necesario (arriba derecha abajo izquierda) */
+    white-space: nowrap; /* Evita que el texto se divida en renglones */
+}
